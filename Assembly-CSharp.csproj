@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F780E8F4-F0FA-6569-66C5-1B44B6EDC7C2}</ProjectGuid>
+    <ProjectGuid>{27537D47-D6D3-D656-B4BA-D719228A66C0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,12 +54,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Going Down\Scripts\Obstacle.cs" />
+    <Compile Include="Assets\SampleMovement\Scripts\MoveRigidbody.cs" />
     <Compile Include="Assets\Going Down\Scripts\ObstacleCreator.cs" />
+    <Compile Include="Assets\SampleMovement\Scripts\Generator.cs" />
     <Compile Include="Assets\Going Down\Scripts\GameMain.cs" />
     <Compile Include="Assets\Going Down\Scripts\Player.cs" />
     <Compile Include="Assets\SampleMovement\Scripts\Translate.cs" />
-    <Compile Include="Assets\Generator.cs" />
-    <Compile Include="Assets\SampleMovement\Scripts\MoveRigidbody.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Going Down\Materials\NewUnlitShader.shader" />
